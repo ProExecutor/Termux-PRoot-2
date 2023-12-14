@@ -1,6 +1,11 @@
-<html>
-<head></head>
-<body>
-<?php require ('./run.php'); ?>
-</body>
-</html>
+<!-- HTML -->
+<button type="button" onclick="runBash()">Run Bash Script</button>
+
+<script>
+// JavaScript
+function runBash() {
+    fetch('server')
+        .then(response => response.text())
+        .then(data => console.log(data));
+}
+</script>
