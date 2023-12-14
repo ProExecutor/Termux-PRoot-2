@@ -1,4 +1,4 @@
-![Running a sandboxed Termux environment](https://raw.githubusercontent.com/Yonle/termux-proot/master/screenshot.png)
+![Running a sandboxed Termux environment](https://raw.githubusercontent.com/Yonle/termux-proot/master/screenshot.png)j
 
 # termux-proot
 A sandboxed, 2nd termux, isolated or jailed termux environment with proot
